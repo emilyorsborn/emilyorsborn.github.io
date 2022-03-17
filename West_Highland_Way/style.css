@@ -1,0 +1,97 @@
+#map {
+position: absolute;
+top: 0;
+bottom: 0;
+width: 100%;
+}
+
+body {
+margin: 0;
+padding: 0;
+}
+
+.map-overlay {
+  position: relative;
+  font-family: sans-serif;
+  top: 0;
+  left: 0;
+  background: #fff;
+  margin-top: 5px;
+  margin-left: 5px;
+  padding: 7px;
+  padding-top: 0px;
+  width: 15%;
+  border: 1px solid black;
+  font-size: 12px;
+  color: #222;
+  background-color: rgba(88, 168, 52,0.6);
+  border-radius: 3px;
+}
+
+.hike-info {
+position: relative;
+font-family: sans-serif;
+margin-top: 5px;
+margin-left: 5px;
+padding: 5px;
+width: 19%;
+border: 1px solid black;
+font-size: 17px;
+color: #222;
+background-color: rgba(188, 96, 225,0.8);
+border-radius: 3px;
+}
+
+.town-info {
+position: relative;
+font-family: sans-serif;
+margin-top: 5px;
+margin-left: 5px;
+padding: 5px;
+width: 15%;
+border: 1px solid black;
+font-size: 17px;
+color: #222;
+background-color: rgba(251, 206, 4,0.6);
+border-radius: 3px;
+}
+
+.poi-info {
+position: relative;
+font-family: sans-serif;
+margin-top: 5px;
+margin-left: 5px;
+padding: 5px;
+width: 15%;
+border: 1px solid black;
+font-size: 17px;
+color: #222;
+background-color: rgba(202, 109, 22,0.6);
+border-radius: 3px;
+}
+
+h2 {
+font-size: 20px;
+border-top: 15px;
+font-family: sans-serif;
+font-weight: bold;
+}
+
+sh {
+font-size: 15px;
+font-family: sans-serif;
+font-weight: bold;
+}
+
+p {
+font-size: 15px;
+font-family: sans-serif;
+}
+
+.my-popup .mapboxgl-popup-content {
+width: 200px;
+background: rgba(1, 95, 104,0.9);
+border-top: 50px black;
+padding: 20px;
+color: white;
+}
